@@ -1,0 +1,230 @@
+
+
+/* ---BodyStyle--- */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---Header--- */
+header {
+    background-color: #2c3e50;
+    padding: 17px 20px;
+    border-bottom: 3px solid #1a252f;
+}
+
+/* ---Navigation--- */
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* ---Main Content--- */
+main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+/* ---Headings--- */
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    text-shadow: 1px 1px 2px #aaaaaa;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #555555;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #666666;
+}
+
+/* ---Paragraphs--- */
+p {
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+/* ---Lists--- */
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* ---Links--- */
+a {
+    color: #2980b9;
+}
+
+a:hover {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+/* ---Sections--- */
+section {
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+/* ---IDSelectors--- */
+#intro {
+    background-color: #eaf4fb;
+    padding: 20px;
+}
+
+#Hobbies {
+    background-color: #fef9e7;
+    padding: 20px;
+}
+
+/* ---ClassSelector--- */
+/* i only added this because it is in the HM3 pdf, my html pages does not have highlight class */
+.highlight {
+    background-color: yellow;
+}
+
+/* ---FigureAndImages--- */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 250px;
+    height: auto;
+    border: 2px solid #cccccc;
+    margin: 10px 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #777777;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* ---Blockquote--- */
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 4px solid #2c3e50;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    font-style: italic;
+    color: #555555;
+}
+
+/* ---Form--- */
+form {
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #cccccc;
+    font-size: 0.95rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f39c12;
+}
+
+/* ---- Footer ---- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #f39c12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ملاحظة للي قرأ الملف انا أبدا مب عاجبني التصميم والله حاولت بس مهناش ذوق ههههههههههههههههههههههههههههههههههه */
