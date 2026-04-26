@@ -21,9 +21,10 @@
       <artical>
         <section id="Project 1">
           <h2>Smart Sensing Under Debris</h2>
-          <p>Completed on: (Still in Progress)</p>
-          <p>Developed an IoT-based search and rescue system designed to detect human life in disaster zones.</p> 
-          <p>The project utilizes a <strong>Raspberry Pi 5</strong> as the primary edge computing unit to process real-time thermal data.</p>
+         <div id="descrp1" style="display: none;">
+          <p>Completed on: (Still in Progress)<br>
+          Developed an IoT-based search and rescue system designed to detect human life in disaster zones.<br>
+          The project utilizes a <strong>Raspberry Pi 5</strong> as the primary edge computing unit to process real-time thermal data.</p>
           <figure>
            <img src="Picture2.jpg" alt="Thermal Camera">
            <figcaption>The Thermal camera MLX90640.</figcaption>
@@ -32,15 +33,19 @@
            <img src="Picture1.jpg" alt="microcontroller">
            <figcaption>The Raspberry pi 5.</figcaption>
           </figure>
-
+         </div>
+         <button onclick="ShowDescrp('descrp1')">Toggle Details</button>
         </section>
 
         <section id="project 2">
           <h2>Machine Learning Email Classifier</h2>
-          <p>Completed on: <time datetime="2025-4-28">April 28, 2025</time></p>
-          <p>This project is a Machine Learning-based Email Classifier that detects whether an email is Spam or Ham (Not Spam)
-             using a Multinomial Naïve Bayes model trained on labled email dataset.</p>
-          <a href="https://github.com/mths0/ML-Email-Classifier">GitHub Repository link for the proejct</a> 
+           <div style="display: none;" id="descrp2">
+            <p>Completed on: <time datetime="2025-4-28">April 28, 2025</time><br>
+              This project is a Machine Learning-based Email Classifier that detects whether an email is Spam or Ham (Not Spam)
+              using a Multinomial Naïve Bayes model trained on labled email dataset.</p>
+            <a href="https://github.com/mths0/ML-Email-Classifier">GitHub Repository link for the proejct</a> 
+           </div>
+           <button onclick="ShowDescrp('descrp2')">Toggle Details</button>
         </section>
 
        

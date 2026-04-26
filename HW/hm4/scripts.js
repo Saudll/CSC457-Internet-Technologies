@@ -21,3 +21,13 @@ cform.onsubmit = function(event) {
 
 
 }
+//--3--
+
+function ShowDescrp(id){
+var descrp = document.getElementById(id);
+
+if(descrp.style.display == "none")
+   descrp.style.display = "block";
+else
+   descrp.style.display = "none";
+}
